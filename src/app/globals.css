@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #fafafa;
+  color: #0a0a0a;
+  font-family: var(--font-manrope), sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #0a0a0a;
+  color: #fafafa;
+}
+
+.clients-logo-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #e8e8e8;
+  background: #fafafa;
+  color: #5a5a5a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 10px 14px;
+  white-space: nowrap;
+}
+
+.clients-logo-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #0a0a0a;
+}
+
+@keyframes brand-loader-spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes brand-loader-pulse {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.35;
+  }
+
+  50% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+
+.brand-loader-shell {
+  position: relative;
+  width: 88px;
+  height: 88px;
+}
+
+.brand-loader-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+}
+
+.brand-loader-ring--outer {
+  width: 88px;
+  height: 88px;
+  border: 2px solid rgba(10, 10, 10, 0.08);
+  border-top-color: #0a0a0a;
+  animation: brand-loader-spin 1.15s linear infinite;
+}
+
+.brand-loader-ring--inner {
+  width: 58px;
+  height: 58px;
+  border: 2px solid rgba(10, 10, 10, 0.08);
+  border-bottom-color: #5a5a5a;
+  animation: brand-loader-spin 0.9s linear infinite reverse;
+}
+
+.brand-loader-core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transform: translate(-50%, -50%);
+}
+
+.brand-loader-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #0a0a0a;
+  animation: brand-loader-pulse 0.9s ease-in-out infinite;
+}
+
+.brand-loader-dot--delay-1 {
+  animation-delay: 0.12s;
+}
+
+.brand-loader-dot--delay-2 {
+  animation-delay: 0.24s;
+}

@@ -1,0 +1,15 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" fill="#0F1218"/>
+  <rect x="90" y="80" width="1020" height="590" rx="28" fill="#161B24" stroke="#242B38"/>
+  <rect x="170" y="130" width="250" height="470" rx="26" fill="#0F1218" stroke="#2B3446"/>
+  <rect x="205" y="190" width="180" height="30" rx="8" fill="#2A3242"/>
+  <rect x="205" y="245" width="180" height="180" rx="14" fill="#1F2633"/>
+  <rect x="205" y="445" width="180" height="20" rx="8" fill="#2A3242"/>
+  <rect x="205" y="478" width="130" height="20" rx="8" fill="#2A3242"/>
+  <rect x="470" y="150" width="540" height="50" rx="12" fill="#1F2633"/>
+  <rect x="470" y="230" width="540" height="50" rx="12" fill="#1F2633"/>
+  <rect x="470" y="310" width="540" height="50" rx="12" fill="#1F2633"/>
+  <rect x="470" y="390" width="540" height="50" rx="12" fill="#1F2633"/>
+  <text x="470" y="610" fill="#EAF0FF" font-size="46" font-family="Arial, sans-serif" font-weight="700">TrackIt</text>
+  <text x="470" y="648" fill="#8FA0BF" font-size="24" font-family="Arial, sans-serif">Placeholder preview image</text>
+</svg>

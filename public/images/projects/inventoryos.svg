@@ -1,0 +1,13 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" fill="#111111"/>
+  <rect x="72" y="86" width="1056" height="578" rx="20" fill="#1F1F1F" stroke="#2A2A2A"/>
+  <rect x="120" y="144" width="280" height="20" rx="6" fill="#3B3B3B"/>
+  <rect x="120" y="192" width="480" height="16" rx="6" fill="#2E2E2E"/>
+  <rect x="120" y="244" width="320" height="320" rx="14" fill="#232323"/>
+  <rect x="470" y="244" width="550" height="62" rx="10" fill="#232323"/>
+  <rect x="470" y="328" width="550" height="62" rx="10" fill="#232323"/>
+  <rect x="470" y="412" width="550" height="62" rx="10" fill="#232323"/>
+  <rect x="470" y="496" width="300" height="62" rx="10" fill="#232323"/>
+  <text x="120" y="640" fill="#EDEDED" font-size="46" font-family="Arial, sans-serif" font-weight="700">InventoryOS</text>
+  <text x="120" y="680" fill="#8C8C8C" font-size="24" font-family="Arial, sans-serif">Placeholder preview image</text>
+</svg>
