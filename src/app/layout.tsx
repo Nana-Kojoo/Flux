@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Manrope, Syne } from 'next/font/google';
 import type { ReactNode } from 'react';
+import { Suspense } from 'react';
 
 import { Footer } from '@/components/layout/Footer';
 import { Navbar } from '@/components/layout/Navbar';
@@ -27,7 +28,9 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
   return (
     <html lang="en">
       <body className={`${syne.variable} ${manrope.variable}`}>
-        <PageTransitionLoader />
+        <Suspense fallback={null}>
+          <PageTransitionLoader />
+        </Suspense>
         <Navbar />
         <main>{children}</main>
         <Footer />
